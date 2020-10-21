@@ -1,4 +1,5 @@
 import React from 'react';
+import Cards from './components/Cards';
 import Header from './components/Header';
 
 import { GlobalStyle, Container } from './styles/GlobalStyle';
@@ -8,6 +9,7 @@ const App: React.FC = () => {
     <>
       <Container>
         <Header />
+        <Cards />
       </Container>
       <GlobalStyle />
     </>
